@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.navber-section {
+  background-color: #fbf3f0;
+  padding: 20px 0px;
+}
+
+.menu-list {
+  font-family: "Open Sans", sans-serif !important;
+  font-size: 18px;
+  font-weight: 600 !important;
+  color: #29313D !important;
+
+}
+
+.menu-list:hover {
+  color: #ff5538 !important;
+}
+
+.menu-part {
+  gap: 48px;
+  align-items: center;
+}
+
+.btnmain{
+    margin-left: 0px !important;
+}
+
+.btnstyle:hover{
+    background-color: transparent !important;
+    border: 1px solid rgb(0, 0, 0) !important;
+    color: black !important;
+    transition: 0.4s;
+    
+}
