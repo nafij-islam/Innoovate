@@ -1,5 +1,12 @@
 .banner-section {
-  background-color: #fbf3f0 !important;
+  background: url(../../assets//bannerbg.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  overflow: hidden;
+  
+  
 }
 
 .bannerbtn2 {
@@ -19,7 +26,7 @@
 
 .heading-part {
   text-align: center;
-  padding: 180px 0px !important;
+  padding: 320px 0px !important;
 }
 
 h1 {
@@ -39,6 +46,151 @@ p{
     display: inline-block;
     padding-bottom: 44px;
     margin: 0px !important;
-    
+}
 
+.aniimg1{
+  position: absolute;
+  top: -252px;
+  left: -282px;
+}
+.animation1{
+  position: absolute;
+  top: 350px;
+  left: 80px;
+  animation: ani 5s alternate infinite linear;
+}
+
+.animation2{
+  position: absolute;
+  bottom: -108px;
+  right:  -750px;
+  animation: ani2 4s alternate infinite linear;
+}
+
+.animation3{
+  position: absolute;
+  top: 580px;
+  left: 240px;
+  animation: ani3 5s alternate infinite linear;
+}
+
+
+.animation4{
+  position: absolute;
+  top: 680px;
+  right: 170px;
+  animation: ani4 5s alternate infinite linear;
+}
+
+.animation5{
+  position: absolute;
+  top: 300px;
+  right: 500px;
+  animation: ani6 5s  infinite linear;
+}
+
+.animation6{
+  position: absolute;
+  top: 200px;
+  right: 700px;
+  animation: ani7  5s alternate  infinite linear;
+}
+
+@keyframes ani7{
+  0%{
+    transform: translate(0);
+  }
+  100%{
+    transform: translateY(-50px);
+  }
+}
+
+@keyframes ani6{
+  0%{
+    transform: rotate(0);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes ani3 {
+  0%{
+    transform: translate(0);
+
+  }
+
+  100%{
+    transform: translateY(-80px);
+  }
+}
+
+
+@keyframes ani4 {
+  0%{
+    transform: translate(0);
+
+  }
+
+  100%{
+    transform: translateX(-80px);
+  }
+}
+
+
+
+
+
+@keyframes ani {
+  0%{
+    transform: translateX(0);
+
+  }
+
+  100%{
+    transform: translateX(-80px);
+  }
+}
+
+@keyframes ani2 {
+  0%{
+   transform: translateY(-50px);
+
+  }
+ 
+ 
+  100%{
+    transform: translate(0);
+  }
+}
+
+.ani-out{
+  width: 100px;
+  height: 100px;
+  position: absolute;
+  top: 150px;
+  left: 650px;
+  border-radius: 50%;
+  border: 3px solid #ff563879;
+  animation: ani5 5s infinite linear;
+}
+
+@keyframes ani5 {
+  0%{
+    transform: rotate(0deg);
+  }
+  100%{
+    transform: rotate(360deg);
+  }
+}
+
+.ani-out .ani-inner{
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background-color: #ff5638ac;
+  transform: translateX(-50%);
+  bottom: 10px;
+  left: 9px;
+  border-radius: 50%;
 }

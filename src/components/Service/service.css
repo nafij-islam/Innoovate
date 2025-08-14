@@ -1,0 +1,33 @@
+.service-heading{
+    font-size: 26px !important;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    padding-bottom: 16px;
+    padding-top: 34px;
+
+}
+.service-pera{
+    font-size: 18px;
+    font-weight: 500;
+    font-family: "Nunito", sans-serif !important;
+    width: 400px;
+}
+
+.cardcolor{
+    background-color: white !important;
+    box-shadow:  2px 2px 15px  rgba(0, 0, 0, 0.452);
+    
+    padding: 40px 0px 0px 30px;
+    transition: 0.7s;
+}
+
+.cardcolor:hover{
+box-shadow:  7px 7px 15px #ff5538;
+
+}
+
+
+/* service card end */
+.card-main{
+    transform: translateY(-100px);
+}

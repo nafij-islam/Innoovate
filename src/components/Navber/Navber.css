@@ -1,10 +1,12 @@
-* {
-  padding: 0;
-  margin: 0;
-}
+
 .navber-section {
-  background-color: #fbf3f0;
-  padding: 20px 0px;
+   position: absolute;
+   z-index: 1;
+   width: 100%;
+   top: 30px;
+   left: 0;
+
+  
 }
 
 .menu-list {
@@ -35,3 +37,4 @@
     transition: 0.4s;
     
 }
+

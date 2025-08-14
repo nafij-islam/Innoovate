@@ -1,12 +1,12 @@
 import React from 'react'
-import Icon from '../../assets/Icon.png'
 
-const ServiceCard = () => {
+
+const ServiceCard = ({src,title,pera}) => {
   return (
-    <div>
-        <img src={Icon}  />
-        <h3>Grow your business</h3>
-        <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque </p>
+    <div className='cardcolor'>
+        <img src={src}  />
+        <h3 className='service-heading'>{title}</h3>
+        <p className='service-pera'>{pera}</p>
     </div>
   )
 }

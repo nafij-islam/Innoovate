@@ -7,6 +7,7 @@ import { IoIosArrowDown } from "react-icons/io";
 import Button from './../Button/Button';
 
 
+
 const Navber = () => {
   return (
     <section className="navber-section">
@@ -44,6 +45,7 @@ const Navber = () => {
               </div>
           </Navbar.Collapse>
         </Navbar>
+        
       </Container>
     </section>
   );
