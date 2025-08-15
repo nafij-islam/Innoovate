@@ -10,6 +10,12 @@ const Experinc = () => {
   return (
     <section className="ex-section">
       <Container>
+
+        <div className="ani-main">
+          <div className="ex-ani-main">
+            <div className="ex-inner"></div>
+          </div>
+        </div>
         <div>
           <p className="exp-top">digital experience</p>
           <h2 className="exp-heading">Connect people in digital life</h2>

@@ -1,11 +1,13 @@
 import React from "react";
 import "./works.css";
-import { Container } from "react-bootstrap";
+import { Container,Row,Col } from "react-bootstrap";
 import Image from "./../Reusable/Image";
 import workani1 from "../../assets/WorkAni1.png";
+import workani2 from "../../assets/WorkAni2.png";
 import Button from "./../Button/Button";
 import Workimg1 from "../../assets/Workimg1.png";
-import Workimg2 from "../../assets/Workimg2.png";
+import Workimg2 from '../../assets/WorkImg-2.png'
+
 
 const Works = () => {
   return (
@@ -14,6 +16,10 @@ const Works = () => {
         <div>
           <div className="workani1">
             <Image src={workani1} />
+          </div>
+
+           <div className="workani2">
+            <Image src={workani2} />
           </div>
         </div>
 
@@ -30,38 +36,7 @@ const Works = () => {
           </div>
         </div>
 
-        <div className="work-card-main">
-          <div className="hover-img-main">
-            <Image src={Workimg1} />
-            <div className="work-hover-text">
-              <h2 className="work-card-head">Mobile App</h2>
-              <p className="work-card-pera">Read more</p>
-            </div>
-          </div>
-
-
-          <div className="hover-img-main2">
-            <Image src={Workimg1} />
-            <div className="work-hover-text">
-              <h2 className="work-card-head">Mobile App</h2>
-              <p className="work-card-pera">Read more</p>
-            </div>
-          </div>
-           <div className="hover-img-main">
-            <Image src={Workimg1} />
-            <div className="work-hover-text">
-              <h2 className="work-card-head">Mobile App</h2>
-              <p className="work-card-pera">Read more</p>
-            </div>
-          </div>
-           <div className="hover-img-main">
-            <Image src={Workimg1} />
-            <div className="work-hover-text">
-              <h2 className="work-card-head">Mobile App</h2>
-              <p className="work-card-pera">Read more</p>
-            </div>
-          </div>
-        </div>
+     
       </Container>
     </section>
   );

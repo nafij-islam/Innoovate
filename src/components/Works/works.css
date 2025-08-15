@@ -1,6 +1,6 @@
 .work-section{
     position: relative;
-    padding-bottom: 120px;
+    padding-bottom: 40px;
     
 }
 
@@ -11,6 +11,23 @@
     left: -335px;
     z-index: -1;
     animation: ani1 4s infinite alternate linear;
+}
+
+.workani2{
+    position: absolute;
+    top: -90px;
+    left: 50px;
+    z-index: -1;
+    animation: ani2 4s infinite alternate linear;
+}
+
+@keyframes ani2{
+    0%{
+        transform: translate(0);
+    }
+    100%{
+        transform: translateX(-80px);
+    }
 }
 
 @keyframes ani1{
@@ -48,65 +65,4 @@
     line-height: 140%;
     
 }
-    
-.hover-img-main{
-    position: relative;
-    width: 570px;
-    overflow: hidden;
-    box-shadow: 5px 5px 15px rgba(151, 151, 151, 0.493);
-    border-radius: 10px;
-}
-
-.hover-img-main:hover .work-hover-text{
-  bottom: 0px;
-  
-}
-
-.work-card-main{
-    padding-top: 60px;
-    display: flex;
-    /* justify-content: space-around; */
-    flex-wrap: wrap;
-    gap: 30px;
-}
-
-
-.work-hover-text{
-    position: absolute;
-    bottom: -100%;
-    left: 0;
-    width: 100%;
-    background-color: white;
-    transition: 0.5s;
-
-}
-
-.work-card-head{
-    font-size: 28px;
-     font-family: "Poppins", sans-serif;
-     color: black;
-     padding: 30px 0px 10px 30px;
-}
-
-.work-card-pera{
-    font-size: 18px;
-     font-family: "Poppins", sans-serif;
-     color: black;
-     padding: 0px 0px 30px 30px;
-     color: #FF5538;
-}
-
-
-    
-.hover-img-main2{
-    position: relative;
-    width: 570px;
-    overflow: hidden;
-    box-shadow: 5px 5px 15px rgba(151, 151, 151, 0.493);
-    border-radius: 10px;
-}
-
-.hover-img-main2:hover .work-hover-text{
-  bottom: 0px;
-  
-}
+   
