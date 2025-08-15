@@ -1,0 +1,112 @@
+.work-section{
+    position: relative;
+    padding-bottom: 120px;
+    
+}
+
+
+.workani1{
+    position: absolute;
+    top: -330px;
+    left: -335px;
+    z-index: -1;
+    animation: ani1 4s infinite alternate linear;
+}
+
+@keyframes ani1{
+    0%{
+        transform: translate(0);
+
+    }
+    100%{
+        transform: translateX(50px);
+    }
+}
+
+.work-heading{
+    display: flex;
+    justify-content:space-between;
+    padding-top: 50px;
+    align-items: center;
+}
+.work-heading .work-pera{
+    font-size: 20px;
+    color: #FF5538;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+}
+
+.work-heading .work-head{
+       font-size: 48px;
+   
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    text-transform: capitalize;
+    width: 690px;
+    line-height: 140%;
+    
+}
+    
+.hover-img-main{
+    position: relative;
+    width: 570px;
+    overflow: hidden;
+    box-shadow: 5px 5px 15px rgba(151, 151, 151, 0.493);
+    border-radius: 10px;
+}
+
+.hover-img-main:hover .work-hover-text{
+  bottom: 0px;
+  
+}
+
+.work-card-main{
+    padding-top: 60px;
+    display: flex;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+
+.work-hover-text{
+    position: absolute;
+    bottom: -100%;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    transition: 0.5s;
+
+}
+
+.work-card-head{
+    font-size: 28px;
+     font-family: "Poppins", sans-serif;
+     color: black;
+     padding: 30px 0px 10px 30px;
+}
+
+.work-card-pera{
+    font-size: 18px;
+     font-family: "Poppins", sans-serif;
+     color: black;
+     padding: 0px 0px 30px 30px;
+     color: #FF5538;
+}
+
+
+    
+.hover-img-main2{
+    position: relative;
+    width: 570px;
+    overflow: hidden;
+    box-shadow: 5px 5px 15px rgba(151, 151, 151, 0.493);
+    border-radius: 10px;
+}
+
+.hover-img-main2:hover .work-hover-text{
+  bottom: 0px;
+  
+}

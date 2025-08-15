@@ -17,8 +17,9 @@
     background-color: white !important;
     box-shadow:  2px 2px 15px  rgba(0, 0, 0, 0.452);
     
-    padding: 40px 0px 0px 30px;
-    transition: 0.7s;
+    padding: 40px 0px 10px 30px;
+    transition: 0.5s;
+    border-radius: 10px;
 }
 
 .cardcolor:hover{
@@ -29,5 +30,28 @@ box-shadow:  7px 7px 15px #ff5538;
 
 /* service card end */
 .card-main{
-    transform: translateY(-100px);
+    transform: translateY(-150px);
+}
+
+.work-section{
+    position: relative;
+}
+
+.ani1{
+    position: absolute;
+    top: -30px;
+    left: 40px;
+    animation: ani1 5s infinite alternate linear;
+    z-index: -1;
+
+
+}
+
+@keyframes ani1{
+    0%{
+        transform: translate(0);
+    }
+    100%{
+        transform: translateX(-30px);
+    }
 }

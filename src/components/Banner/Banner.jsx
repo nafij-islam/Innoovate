@@ -10,7 +10,9 @@ import Animation3 from '../../assets/Animation3.png'
 import Animation4 from '../../assets/Animation4.png'
 import Animation5 from '../../assets/Animation5.png'
 import Animation6 from '../../assets/Animation6.png'
-
+import Animation8 from '../../assets/Animation8.png'
+import bannertextAni from '../../assets/bannertextAni.png'
+import imgAni2 from '../../assets/imgAni2.png'
 
 const Banner = () => {
   return (
@@ -19,6 +21,9 @@ const Banner = () => {
         <div>
           <div className="aniimg1">
             <Image src={Aniimg1}/>
+           </div>
+           <div className="aniimg2">
+            <Image src={imgAni2}/>
            </div>
            <div className="animation1">
              <Image src={Animation1}/>
@@ -36,9 +41,19 @@ const Banner = () => {
             <div className="animation5">
              <Image src={Animation6}/>
            </div>
-
             <div className="animation6">
              <Image src={Animation4}/>
+           </div>
+            <div className="animation7">
+             <Image src={Animation6}/>
+           </div>
+            <div className="animation9">
+             <Image src={Animation8}/>
+           </div>
+
+           
+            <div className="animation8">
+             <Image src={bannertextAni}/>
            </div>
 
            <div className="ani-out">
@@ -47,7 +62,7 @@ const Banner = () => {
         </div>
         <div className="heading-part">
           <h1>We are a full range design agency</h1>
-          <p>
+          <p className="banner-pera">
             Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil
             impedit quo minus id quod maxime.
           </p>

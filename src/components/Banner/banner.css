@@ -8,6 +8,12 @@
   
   
 }
+.bannerbtn1:hover{
+  background-color: transparent !important;
+    border: 1px solid #ff5538 !important;
+    color: black !important;
+    transition: 0.4s;
+}
 
 .bannerbtn2 {
   background-color: transparent !important;
@@ -26,7 +32,7 @@
 
 .heading-part {
   text-align: center;
-  padding: 320px 0px !important;
+  padding: 350px 0px !important;
 }
 
 h1 {
@@ -39,19 +45,27 @@ h1 {
   padding-bottom: 24px !important;
   margin: 0px !important;
 }
-p{
+.banner-pera{
     font-family: "Poppins", sans-serif ;
     font-size: 18px;
-    width: 600px;
+    width: 600px !important;
     display: inline-block;
     padding-bottom: 44px;
     margin: 0px !important;
 }
 
+
+
 .aniimg1{
   position: absolute;
   top: -252px;
   left: -282px;
+}
+
+.aniimg2{
+  position: absolute;
+  top: 200px;
+  right: -65px;
 }
 .animation1{
   position: absolute;
@@ -77,7 +91,7 @@ p{
 
 .animation4{
   position: absolute;
-  top: 680px;
+  top: 700px;
   right: 170px;
   animation: ani4 5s alternate infinite linear;
 }
@@ -88,6 +102,28 @@ p{
   right: 500px;
   animation: ani6 5s  infinite linear;
 }
+
+.animation7{
+  position: absolute;
+  top: 300px;
+  left: 500px;
+  animation: ani6 5s  infinite linear;
+  
+}
+
+.animation8{
+  position: absolute;
+  top: 160px; 
+  left: 70px;
+}
+
+.animation9{
+  position: absolute;
+  top: 130px;
+  left: 350px;
+}
+
+
 
 .animation6{
   position: absolute;
@@ -133,7 +169,7 @@ p{
   }
 
   100%{
-    transform: translateX(-80px);
+    transform: translateX(-50px);
   }
 }
 
@@ -168,8 +204,8 @@ p{
   width: 100px;
   height: 100px;
   position: absolute;
-  top: 150px;
-  left: 650px;
+  top: 170px;
+  left: 680px;
   border-radius: 50%;
   border: 3px solid #ff563879;
   animation: ani5 5s infinite linear;
