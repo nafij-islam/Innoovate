@@ -1,0 +1,43 @@
+.footer-section{
+    padding: 120px 0px 20px 0px;
+}
+
+.footer-section .logo-pera{
+    width: 450px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Nunito", sans-serif !important;
+    line-height: 180%;
+    padding-top: 40px;
+}
+
+.footer-section h2{
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.footer-section ul{
+    padding-top: 48px !important;
+    list-style: none;
+    padding: 0px;
+    margin: 0x;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.footer-section .copyright{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 80px;
+}
+.footer-section .copy-right-part{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Nunito", sans-serif !important;
+
+}
+
+.footer-section .copy-right{
+    display: flex;
+    gap: 60px;
+}

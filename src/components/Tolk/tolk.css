@@ -1,0 +1,52 @@
+.tolk-section {
+  background-color: #ffd7c8e6;
+  padding: 100px 0px;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.tolk-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #29313d;
+}
+
+.tolk-main h3 {
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Nunito", sans-serif !important;
+  padding-bottom: 7px;
+}
+
+.tolk-main h2 {
+  font-size: 48px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  padding-bottom: 48px;
+}
+
+.tolk-section p {
+  width: 1000px;
+  font-family: "Nunito", sans-serif !important;
+  font-size: 20px;
+  font-weight: 400;
+  padding-top: 24px;
+}
+
+.tolk-section .tolk-anima {
+  position: absolute;
+  top: -120px;
+  right: -50px;
+  animation: tolkani 3s linear infinite alternate;
+}
+
+@keyframes tolkani{
+    0%{
+        transform: translate(0);
+    }
+    100%{
+        transform: translateY(-50px);
+    }
+}

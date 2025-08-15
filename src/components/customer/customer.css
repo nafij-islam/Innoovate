@@ -1,0 +1,44 @@
+.customer-section{
+    padding: 120px 0px;
+}
+
+.img-flex{
+    display: flex;
+    gap: 25px;
+    padding-bottom: 60px;
+}
+
+.left-main h2{
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif ;
+    padding-bottom: 60px;
+
+}
+
+.left-main p{
+    font-size: 20px;
+    font-family: "Nunito", sans-serif !important;
+    font-weight: 400;
+    width: 650px;
+    padding-bottom: 60px;
+}
+
+
+.left-main .slide-name{
+    font-size: 48px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif ;
+    padding-bottom: 0px;
+
+}
+
+.slide-main{
+    display: flex;
+    gap: 40px;
+}
+
+.right-part{
+    display: flex;
+    justify-content: center;
+}
