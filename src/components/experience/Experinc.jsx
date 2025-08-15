@@ -5,6 +5,7 @@ import Image from "./../Reusable/Image";
 import Eximg1 from "../../assets/Eximg1.png";
 import Eximg2 from "../../assets/Eximg2.png";
 import Button from './../Button/Button';
+import Exanima1 from '../../assets/ExAnimation1.png'
 
 const Experinc = () => {
   return (
@@ -34,7 +35,12 @@ const Experinc = () => {
             <Button className="bannerbtn1">More about us</Button>
           </div>
         </div>
-        <div></div>
+       
+      </div>
+
+
+      <div className="exanimation1">
+        <Image src={Exanima1}/>
       </div>
     </section>
   );

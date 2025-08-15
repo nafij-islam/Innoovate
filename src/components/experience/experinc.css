@@ -88,3 +88,18 @@
 }
 
 
+.exanimation1{
+  position: absolute;
+  bottom: -60px;
+  right: -130px;
+  animation: exani 3s infinite linear alternate;
+}
+
+@keyframes exani{
+  0%{
+    transform: translate(0);
+  }
+  100%{
+    transform: translateY(50px);
+  }
+}

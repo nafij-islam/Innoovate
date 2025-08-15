@@ -1,0 +1,25 @@
+.company-section{
+    padding: 120px 0px;
+}
+
+.company-heading{
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 140%;
+    width: 750px;
+    display: inline-block;
+    padding-bottom: 60px;
+}
+
+.heading{
+    text-align: center;
+}
+
+/* .company-flex{
+    display: flex;
+    justify-content: space-between;
+} */
+
+.company1{
+    width: 210px;
+}

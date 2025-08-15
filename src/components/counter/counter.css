@@ -1,0 +1,65 @@
+.count-section{
+    background-color: #FDF9F8;
+    padding: 120px 0px;
+    position: relative;
+    overflow: hidden;
+}
+
+.count-card{
+    background-color: white;
+    text-align: center;
+    width: 260px;
+    padding: 64px 0px;
+    box-shadow: 5px 5px 15px #89888836;
+}
+
+.count-card .count-head{
+    font-size: 40px;
+    font-weight: 600;
+   font-family: "Poppins", sans-serif ;
+
+}
+
+.count-pera{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Nunito", sans-serif !important;
+}
+
+.count-main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+.count-right h2{
+    font-size: 48px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif ;
+    line-height: 140%;
+    padding-bottom: 20px;
+}
+.count-right p{
+    font-size: 18px;
+    font-weight: 400;
+     font-family: "Nunito", sans-serif !important;
+     padding-bottom: 40px;
+}
+
+.couonter-animation1{
+    position: absolute;
+    top: 40px;
+    right: -50px;
+    animation:  countani1 2s infinite linear alternate;
+}
+
+@keyframes countani1{
+    0%{
+       transform: translate(0);
+    }
+
+    100%{
+       transform: translateX(100px);
+    }
+}

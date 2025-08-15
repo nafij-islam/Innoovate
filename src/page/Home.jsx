@@ -4,6 +4,8 @@ import Banner from './../components/Banner/Banner';
 import Service from './../components/Service/Service';
 import Experinc from './../components/experience/Experinc';
 import Works from './../components/Works/Works';
+import Counter from './../components/counter/Counter';
+import Company from './../components/Company/Company';
 
 const Home = () => {
   return (
@@ -13,6 +15,8 @@ const Home = () => {
     <Service/>
     <Experinc/>
     <Works/>
+    <Counter/>
+    <Company/>
 
     </>
   )

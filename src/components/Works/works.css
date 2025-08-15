@@ -1,68 +1,130 @@
-.work-section{
-    position: relative;
-    padding-bottom: 40px;
-    
+.work-section {
+  position: relative;
+  padding-bottom: 40px;
 }
 
-
-.workani1{
-    position: absolute;
-    top: -330px;
-    left: -335px;
-    z-index: -1;
-    animation: ani1 4s infinite alternate linear;
+.workani1 {
+  position: absolute;
+  top: -330px;
+  left: -335px;
+  z-index: -1;
+  animation: ani1 4s infinite alternate linear;
 }
 
-.workani2{
-    position: absolute;
-    top: -90px;
-    left: 50px;
-    z-index: -1;
-    animation: ani2 4s infinite alternate linear;
+.workani2 {
+  position: absolute;
+  top: -90px;
+  left: 50px;
+  z-index: -1;
+  animation: ani2 4s infinite alternate linear;
 }
 
-@keyframes ani2{
-    0%{
-        transform: translate(0);
-    }
-    100%{
-        transform: translateX(-80px);
-    }
+@keyframes ani2 {
+  0% {
+    transform: translate(0);
+  }
+  100% {
+    transform: translateX(-80px);
+  }
 }
 
-@keyframes ani1{
-    0%{
-        transform: translate(0);
-
-    }
-    100%{
-        transform: translateX(50px);
-    }
+@keyframes ani1 {
+  0% {
+    transform: translate(0);
+  }
+  100% {
+    transform: translateX(50px);
+  }
 }
 
-.work-heading{
-    display: flex;
-    justify-content:space-between;
-    padding-top: 50px;
-    align-items: center;
+.work-heading {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 50px;
+  align-items: center;
 }
-.work-heading .work-pera{
-    font-size: 20px;
-    color: #FF5538;
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    text-transform: capitalize;
-    padding-bottom: 10px;
+.work-heading .work-pera {
+  font-size: 20px;
+  color: #ff5538;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  text-transform: capitalize;
+  padding-bottom: 10px;
 }
 
-.work-heading .work-head{
-       font-size: 48px;
-   
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    text-transform: capitalize;
-    width: 690px;
-    line-height: 140%;
-    
+.work-heading .work-head {
+  font-size: 48px;
+
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  text-transform: capitalize;
+  width: 690px;
+  line-height: 140%;
 }
-   
+
+.work-box {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+
+  gap: 20px;
+}
+
+.work-box .card-one {
+  width: 40%;
+  background: url(../../assets//WorkImg-2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 458px;
+  position: relative;
+  overflow: hidden;
+}
+
+.card-one:hover .inner {
+  bottom: 0;
+}
+
+.card-two:hover .inner {
+  bottom: 0;
+}
+
+.work-box .card-two {
+  width: 58%;
+  background: url(../../assets/Workimg1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+}
+
+.inner {
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  width: 100%;
+  height: 130px;
+  background-color: #ff5538;
+  transition: 0.5s;
+}
+
+.inner .inner-text {
+  font-size: 28px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  padding: 30px 0px 10px 30px;
+  margin: 0px;
+  color: white;
+}
+
+.inner-pera {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  padding-left: 30px;
+  color: white;
+}
+
+.card-main-pad {
+  padding-top: 70px;
+}
